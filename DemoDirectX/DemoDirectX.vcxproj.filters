@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="FramWork">
+      <UniqueIdentifier>{197b388b-ceee-4cc5-84c9-8fa7dd6cc7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FramWork\GameInterfaces">
+      <UniqueIdentifier>{82026a55-b69b-4d86-9a89-5b9e60b9c269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FramWork\GameComponents">
+      <UniqueIdentifier>{904cfce5-28d1-4baa-b52d-a09c93cdf7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FramWork\GameScenes">
+      <UniqueIdentifier>{fb4f5de1-998c-42cf-880c-12afdfc29367}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLog.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConverter.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGlobal.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDebugDraw.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>FramWork\GameScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IInput.h">
+      <Filter>FramWork\GameInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLog.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConverter.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGlobal.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDebugDraw.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>FramWork\GameScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FramWork\GameComponents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

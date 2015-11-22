@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAKABgAAgAAAAECALAuAAAAAIDhA4AAAAAY=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="GameConverter" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAIAAAAAA=</HashCode>
+      <FileName>GameConverter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDebugDraw" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAgABgAAAAAEAQACAAAAAAEAAAAgAAAA=</HashCode>
+      <FileName>GameDebugDraw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameGlobal" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAIAABAIQgACAAABADAQACAgAAAAAIGAAgQY=</HashCode>
+      <FileName>GameGlobal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameInput" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAwCAAAAEAAAaAAAABAICACEAAAAAQAEAAAA=</HashCode>
+      <FileName>GameInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMap" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBQIEIAAAAABAgABgAASAAFAgCAABAIAAAQAAEAAAAA=</HashCode>
+      <FileName>GameMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameTime" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACACAgAAAAAAIAAAABAAQAAAAAAQAAIABAAA=</HashCode>
+      <FileName>GameTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameCollision" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAACAAAAAAAAgAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>GameCollision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicBody" Collapsed="true">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAIAAAAAAgAAAAAAAAAAAAAAAgBQAAAAAAA=</HashCode>
+      <FileName>PhysicWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rectangle" Collapsed="true">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAoAAEACACAAAAAAAA=</HashCode>
+      <FileName>PhysicWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Circle" Collapsed="true">
+    <Position X="2.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>PhysicWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicWorld" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQBAACAABAAAAAAAAEAAAAAAAgAAAAAAIAAAAAAAAM=</HashCode>
+      <FileName>PhysicWorld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAgAAAAAAAAAAAAAAAIAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>QuadTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuadTree" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAQAAAAAAAAAQAAAAEBFAAAAFAAAAAADAAgA=</HashCode>
+      <FileName>QuadTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAIACCAEggA0AAKAAAMwABBQggCYEIAIgAIAAU=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Brick" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAABAAAAAAAAAABAAQAAAAAAAAQ=</HashCode>
+      <FileName>Brick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BrickGold" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>BrickGold.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKCAAAACgABAAAQAAAAEBAwAAAAgAAAAAQAEAAAAI=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scene" Collapsed="true">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAACAAgAAgAAAAAAAQAIAAQAAAAAABAAAAAQ=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SceneManager" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAgAAgAAgAABAAAAAAAAAIAAAAAAAQ=</HashCode>
+      <FileName>SceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shader" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAAAAAAAAAAAAAAIAAgAAAIBhACIAAAEAg=</HashCode>
+      <FileName>Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sprite" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgMAAAAKFCCAhgBAgwgQ6ADAgAQCCggYIAKAYsABEgY=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQIAgAAAAAAAgAAAAABAAAAAAgAAAAAAAgAAAAABAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyMushRoom" Collapsed="true">
+    <Position X="7.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABgAAAAAAAAAgAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>EnemyMushRoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mario" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQoBECCGKIBwwDTVCAKIRRBBFkBEpgSgABEQEFgExA=</HashCode>
+      <FileName>Mario.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScene" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBUYkCCAEACCBggBAmCKJQAAAItAAEEAABAAHAIkAAQ=</HashCode>
+      <FileName>GameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneGamePlay" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQABAAAAACAAgAAAAAAAAAgAAIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>SceneGamePlay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLDocument" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAggQYUQSAQAQDgABAgCAAEAAAQhAEkhAAgFRtEBEA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLElement" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAYCACACQAEIQpCIILSRAQQAAAoAEACgQAAAgEA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLAttribute" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhQAoAAAACBAABAEAAggAAQAABAAAEAgAAAgQAEQgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLComment" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAAAAAAAAAAAAAQACAAAAAAAAAAAgAAAAgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLText" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAEAAQAAAAEAAAAAAAABAAAAEAAAgAAEAgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLDeclaration" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQCAAAAAAAAAAAAAAAAAAAAAEAAAAIgAAAAgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLUnknown" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAggAAAAgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLPrinter" Collapsed="true">
+    <Position X="2.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGoQAAgAAAAAgUAAAAEBAIAABAEgAAQoQEBAAUsghI=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::StrPair" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAiAAAAAhAAQCAIAAQgIAAAQAAAAAQAgAAQAAAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::DynArray&lt;T, INITIAL_SIZE&gt;" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgBAAAkAABAAIAAAASAAGAAAAAAgAwEAJACAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::MemPool" Collapsed="true">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAgAAEAAAAAAAAAAgAhAAAI=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::MemPoolT&lt;SIZE&gt;" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAQAAAAhAAAAAgAAFAAABAAYAEgAAhAEAo=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLVisitor" Collapsed="true">
+    <Position X="2.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAACAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLUtil" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAkAMAAABAAAABAAKAAAAAgBIABggAAAAAAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLNode" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ALAgAAaMAEAACgAAEEAAYQhUgBqAIAAgAIskAAhAhAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLHandle" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEBAAAEAACAAAAEAAIAAAAAiAAAAAAIcgAABABAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tinyxml2::XMLConstHandle" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEBAAAEAACAAAAEAAIAAAAAiAAAAAAIMgAABABAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Ellipse" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAACAAAAAAAAMAAAAAAAGAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxEllipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Image" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAaAQAAAAABAAAAAABIAAAIAAEAAAIA=</HashCode>
+      <FileName>MapReader\TmxImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Map" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAJhOCBEABEAIAUAYBARAQBgwAAQBABKaQC6DFICQBo=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::ImageLayer" Collapsed="true">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxImageLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Layer" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QFIgGAQAAEAAEAQAQAAAAABAAAAEJAAEYgBgiEIABBQ=</HashCode>
+      <FileName>MapReader\TmxLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::TileLayer" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQgAAgAAAAgAAAAQAAYAAAAAAAQAIAAAAAKAAAAMCs=</HashCode>
+      <FileName>MapReader\TmxTileLayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::ObjectGroup" Collapsed="true">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAgAAAAAAgAIAAAAAAAAAAAAQAAAACAAAAAAIAAAAA=</HashCode>
+      <FileName>MapReader\TmxObjectGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Tileset" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUJoCABQAAAAAAAAIAAQAQAQkwAkACAAAAAAAAIABEA=</HashCode>
+      <FileName>MapReader\TmxTileset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Polygon" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>MapReader\TmxPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Polyline" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIACBAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxPolyline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Object" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgKAACAUAAEAYgQACAACBAAAAFAAEgYCBgCEJABgA=</HashCode>
+      <FileName>MapReader\TmxObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::PropertySet" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIgAAAAARAAAACAAAIAAAIAAAAAACAAAIAAAAAAAAI=</HashCode>
+      <FileName>MapReader\TmxPropertySet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Terrain" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgCAAAAAAAAAAAAAAIAAAAAAAEAACAAEAIAAAABAA=</HashCode>
+      <FileName>MapReader\TmxTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::TerrainArray" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>MapReader\TmxTerrainArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::AnimationFrame" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAIgAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxTile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Tile" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASIgGAAAAAAQIABAAAAAQAAAAQAAIAAAAAAAAaIAAwA=</HashCode>
+      <FileName>MapReader\TmxTile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::TileOffset" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAYABgAAAAQAA=</HashCode>
+      <FileName>MapReader\TmxTileOffset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tmx::Util" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEAAAAAAIA=</HashCode>
+      <FileName>MapReader\TmxUtil.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Rect" Collapsed="true">
+    <Position X="36" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAgAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>GameStructs.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mz_stream_s" Collapsed="true">
+    <Position X="18.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAEAAAIAAAACQAAAIICAAEEAAQAAAEAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_01da_6" Collapsed="true">
+    <Position X="11.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAgGIAAACAIAAAIAAAAAAAEAgAAAAAACAAAICAABAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="mz_zip_archive_tag" Collapsed="true">
+    <Position X="23.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAABBgAAAQAAACCAAAAAAwBACAACgAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_01da_12" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAgAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinfl_decompressor_tag" Collapsed="true">
+    <Position X="15.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIHCEAAABAQAAACAAAgQABADMAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_01da_20" Collapsed="true">
+    <Position X="11.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CKoAICACAEACAggIgQAAiDEGAgJglBDBFAMAAIMAAQA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_01da_21" Collapsed="true">
+    <Position X="19.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCQAAAAAAgIAAAAAAAEAAAAAABAAAAAAAAAAAI=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="z_stream_s" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAEAAAIAAAACQAAAIICAAEEAAQAAAEAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gz_header_s" Collapsed="true">
+    <Position X="15.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAQAAEAAAABAABAAAAAAAEAAAIAAkQAAAAAQA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gzFile_s" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="internal_state" Collapsed="true">
+    <Position X="30.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tinyxml2::Entity" Collapsed="true">
+    <Position X="29" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAECAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\tinyxml2.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tmx::MapTile" Collapsed="true">
+    <Position X="32.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAQBAAAAAAAAAAAAIAAAAAAAAAAEQAAgA=</HashCode>
+      <FileName>MapReader\TmxMapTile.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tmx::Point" Collapsed="true">
+    <Position X="34.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxPoint.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="mz_ulong" Collapsed="true">
+    <Position X="10.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_alloc_func" Collapsed="true">
+    <Position X="32.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_free_func" Collapsed="true">
+    <Position X="29" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_realloc_func" Collapsed="true">
+    <Position X="34.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_stream" Collapsed="true">
+    <Position X="16.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_streamp" Collapsed="true">
+    <Position X="16.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Byte" Collapsed="true">
+    <Position X="23.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uInt" Collapsed="true">
+    <Position X="26.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLong" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Bytef" Collapsed="true">
+    <Position X="23.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uIntf" Collapsed="true">
+    <Position X="24.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="charf" Collapsed="true">
+    <Position X="29" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="intf" Collapsed="true">
+    <Position X="30.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpf" Collapsed="true">
+    <Position X="36" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLongf" Collapsed="true">
+    <Position X="7.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidp" Collapsed="true">
+    <Position X="32.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpc" Collapsed="true">
+    <Position X="34.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_uint8" Collapsed="true">
+    <Position X="30.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_int16" Collapsed="true">
+    <Position X="30.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_uint16" Collapsed="true">
+    <Position X="37.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_uint32" Collapsed="true">
+    <Position X="29" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_uint" Collapsed="true">
+    <Position X="36" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_int64" Collapsed="true">
+    <Position X="32.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_uint64" Collapsed="true">
+    <Position X="20.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_bool" Collapsed="true">
+    <Position X="34.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_zip_archive_file_stat" Collapsed="true">
+    <Position X="11.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_file_read_func" Collapsed="true">
+    <Position X="36" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_file_write_func" Collapsed="true">
+    <Position X="37.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_zip_internal_state" Collapsed="true">
+    <Position X="37.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_zip_mode" Collapsed="true">
+    <Position X="23.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_zip_archive" Collapsed="true">
+    <Position X="23.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_zip_flags" Collapsed="true">
+    <Position X="19.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinfl_put_buf_func_ptr" Collapsed="true">
+    <Position X="30.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinfl_decompressor" Collapsed="true">
+    <Position X="15.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinfl_status" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinfl_huff_table" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tinfl_bit_buf_t" Collapsed="true">
+    <Position X="20.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tdefl_put_buf_func_ptr" Collapsed="true">
+    <Position X="29" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tdefl_status" Collapsed="true">
+    <Position X="7.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tdefl_flush" Collapsed="true">
+    <Position X="3.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tdefl_compressor" Collapsed="true">
+    <Position X="11.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_validate_uint16" Collapsed="true">
+    <Position X="32.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_validate_uint32" Collapsed="true">
+    <Position X="34.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="mz_validate_uint64" Collapsed="true">
+    <Position X="36" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="inflate_state" Collapsed="true">
+    <Position X="19.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_crc_t" Collapsed="true">
+    <Position X="37.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_stream" Collapsed="true">
+    <Position X="3.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_streamp" Collapsed="true">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_header" Collapsed="true">
+    <Position X="12.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_headerp" Collapsed="true">
+    <Position X="12.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gzFile" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="IInput" Collapsed="true">
+    <Position X="29" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IInput.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="__unnamed_enum_01da_1" Collapsed="true">
+    <Position X="29" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAAAAAAQAAAAAAAAAAAAIAAAAAAAAACA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_2" Collapsed="true">
+    <Position X="30.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACAAAAAAAgAUAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_3" Collapsed="true">
+    <Position X="32.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAEAIAAAgAAAIAAAAAAACAAAAAAAABAAAAIAE=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_4" Collapsed="true">
+    <Position X="34.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAIQEBAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_5" Collapsed="true">
+    <Position X="36" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAgAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_7" Collapsed="true">
+    <Position X="23.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAADAAAABAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_8" Collapsed="true">
+    <Position X="19.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgCAgAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_9" Collapsed="true">
+    <Position X="37.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAABgAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_10" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAgAABAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_11" Collapsed="true">
+    <Position X="30.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAAMAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_13" Collapsed="true">
+    <Position X="32.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAQIAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_14" Collapsed="true">
+    <Position X="34.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAABCAAAAAABBAAAAAAAEAAAAAJAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_15" Collapsed="true">
+    <Position X="36" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACAAACAAAAAAAACAAAAAABAAAAAAEAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_16" Collapsed="true">
+    <Position X="37.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAAAAAAAAQAAIAAAIAAAAAAAAAgI=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_17" Collapsed="true">
+    <Position X="29" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAAAAAAAAQAAIAAAIAAAAAAAAAgI=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_18" Collapsed="true">
+    <Position X="7.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAADAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_01da_19" Collapsed="true">
+    <Position X="3.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAgCAAAAAAAEAAA=</HashCode>
+      <FileName>MapReader\miniz.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tinyxml2::XMLError" Collapsed="true">
+    <Position X="34.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKABKCAAAEAEAgoAAACACAAAAEQBAAAAIEEgAAAgAIA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tinyxml2::Whitespace" Collapsed="true">
+    <Position X="32.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\tinyxml2.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::LayerType" Collapsed="true">
+    <Position X="29" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MapReader\TmxLayer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::MapError" Collapsed="true">
+    <Position X="30.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::MapOrientation" Collapsed="true">
+    <Position X="32.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::MapRenderOrder" Collapsed="true">
+    <Position X="34.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAACAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::MapStaggerAxis" Collapsed="true">
+    <Position X="36" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::MapStaggerIndex" Collapsed="true">
+    <Position X="37.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxMap.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::TileLayerEncodingType" Collapsed="true">
+    <Position X="30.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEIAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxTileLayer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Tmx::TileLayerCompressionType" Collapsed="true">
+    <Position X="29" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAEAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MapReader\TmxTileLayer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
