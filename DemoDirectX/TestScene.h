@@ -50,10 +50,11 @@ public:
     float xDistance, yDistance;
     Sprite *dot, *dot2; //sprite ve 1 cham len man hinh
     D3DXVECTOR2 previousPoint;    
-    bool isPause, isDebugDraw, isHideAll, isUseMouse, isDrawBezier, isMouseDown;
+    bool isPause, isDebugDraw, isHideAll, isDrawBezier, isMouseDown;
     GameDebugDraw *debugDraw, *drawBezier;
 
 private:
+    bool isContentLoaded;
     bool isClickOnNode(float x, float y, D3DXVECTOR2 point);
     int indexPointClicked;
 };

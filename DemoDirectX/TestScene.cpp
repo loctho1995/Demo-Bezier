@@ -3,8 +3,8 @@
 /*
 bam phim d: de hien/an cac duong line noi cac diem (control points)
 bam phim h: de an/hien tat ca (tru sprite arrow)
-bam phim m: de dung chuot bam vao man hinh
 bam phim b: de ve duong cong bezier
+bam phim c: de clear
 
 bam numberpad1: de ve bezier bac 2
 bam numberpad2: de ve bezier bac 3
@@ -19,6 +19,7 @@ bam -: de giam toc do
 TestScene::TestScene()
 {
     this->mBackColor = 0x54acd2;
+    isContentLoaded = false;
 }
 
 
@@ -44,7 +45,6 @@ void TestScene::LoadContent()
     indexPointClicked = -1;
     isPause = false;
     isDebugDraw = false;
-    isUseMouse = false;
     isDrawBezier = false;
     isMouseDown = false;
 
@@ -61,6 +61,7 @@ void TestScene::LoadContent()
     sprites = new Sprite("test.png");
 
     previousPoint = CalculateSinglePoint(0, points);
+    isContentLoaded = true;
 }
 
 void TestScene::Update(float dt)
@@ -117,6 +118,9 @@ void TestScene::Update(float dt)
 
 void TestScene::Draw()
 {
+    if (!isContentLoaded)
+        return;
+
     if (isDebugDraw)
         debugDraw->DrawLine(&points[0], points.size());
 
@@ -149,6 +153,9 @@ void TestScene::Draw()
 
 void TestScene::OnKeyDown(int keyCode)
 {
+    if (!isContentLoaded)
+        return;
+
     if (keyCode == DIK_SPACE)
         isPause = !isPause;
 
@@ -158,17 +165,16 @@ void TestScene::OnKeyDown(int keyCode)
     if (keyCode == DIK_H)
         isHideAll = !isHideAll;
 
-    if (keyCode == DIK_M)
-    {
-        isUseMouse = !isUseMouse;
-        points.clear();
-    }
-
     if (keyCode == DIK_B)
     {
         isDrawBezier = !isDrawBezier;
     }
         
+    if (keyCode == DIK_C)
+    {
+        points.clear();
+        savePoints.clear();
+    }
 
     //chay bezier bac 2
     if (keyCode == DIK_NUMPAD1)
@@ -263,6 +269,9 @@ void TestScene::OnKeyUp(int keyCode)
 
 void TestScene::OnMouseDown(float x, float y)
 {
+    if (!isContentLoaded)
+        return;
+
     isMouseDown = true;
 
     for (size_t i = 0; i < points.size(); i++)
@@ -276,9 +285,6 @@ void TestScene::OnMouseDown(float x, float y)
 
     indexPointClicked = -1;
 
-    if (!isUseMouse)
-        return;
-
     points.push_back(D3DXVECTOR2(x, y));
     savePoints.clear();
 
@@ -289,11 +295,17 @@ void TestScene::OnMouseDown(float x, float y)
 
 void TestScene::OnMouseUp(float x, float y)
 {
+    if (!isContentLoaded)
+        return;
+
     isMouseDown = false;
 }
 
 void TestScene::OnMouseMove(float x, float y)
 {
+    if (!isContentLoaded)
+        return;
+
     if (isMouseDown && indexPointClicked != -1)
     {
         points[indexPointClicked] = D3DXVECTOR2(x, y);
